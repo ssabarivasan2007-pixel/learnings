@@ -6,6 +6,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -54,7 +58,8 @@ body{
     display: flex;
     justify-content: center;
     gap: 50px;
-    padding: 50px;
+    padding: 50px; 
+    margin-top: 80px;
 }
 .header-btn{
     padding-left: 20px;
@@ -144,6 +149,12 @@ body{
     }
     .navbar-menu-toggle{
         display: block;
+    }
+    .side-navbar{
+        z-index:2;
+    }
+    .service{
+        z-index: 1;
     }
     .header-image{
         display: none;
