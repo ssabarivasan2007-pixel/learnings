@@ -142,6 +142,11 @@ body{
     padding-bottom:40px;
     color: aliceblue;
 }
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /* collection page design */
 .product-section{
     margin-top: 60px;
@@ -235,5 +240,11 @@ body{
     }
     .service-container-2{
         flex-direction: column;
+    }
+    .contact{
+        margin-top: 75px;
+        width: 100%;
+        margin-left: 0%;
+        margin-right: 0%;
     }
 }
