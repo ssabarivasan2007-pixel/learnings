@@ -185,9 +185,12 @@ body{
 .contact{
     color: #F2F4F7;
     position: relative;
-    margin-left: 25%;
+    margin: 0 auto;
+    margin-top: 75px;
     width: 550px;
     padding: 50px;
+    flex-wrap: wrap;
+    width: 50%;
     margin-top: 75px;
     background-color: #1D232C;  
     border-radius: 5%; 
